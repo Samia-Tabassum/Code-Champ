@@ -1,3 +1,4 @@
+import 'package:code_champ/Club.dart';
 import 'package:flutter/material.dart';
 import 'package:code_champ/home.dart';
 import 'package:get/get.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: LoginPage()
+        home: ClubDashboard()
     );
   }
 }
