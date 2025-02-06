@@ -117,7 +117,7 @@ class HomePage extends StatelessWidget {
     return Column(
       children: List.generate(3, (index) => Card(
         child: ListTile(
-          title: Text("Contest ${index + 1}"),
+          title: Text("Codeforces Round ${1001 + 1}, Div(${index + 1})"),
           subtitle: Text("Platform: Codeforces"),
           trailing: ElevatedButton(
             onPressed: () {},
