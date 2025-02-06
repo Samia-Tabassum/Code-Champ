@@ -24,10 +24,8 @@ class HomePage extends StatelessWidget {
         selectedItemColor: Colors.blue,
         unselectedItemColor: Colors.grey,
         onTap: (index) {
-          // Handle navigation based on the index
           switch (index) {
             case 0:
-            // Navigate to Home (current page)
               break;
             case 1:
               Navigator.push(
@@ -68,7 +66,7 @@ class HomePage extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text("Welcome, User!", style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
+              Text("Welcome, Emon!", style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
               SizedBox(height: 10),
               SingleChildScrollView(
                 scrollDirection: Axis.horizontal,
