@@ -36,6 +36,8 @@ dependencies:
   cupertino_icons: ^1.0.8
   icons_plus: ^4.0.0
   get: ^4.6.6
+  particles_flutter: ^0.1.4
+
 
 dev_dependencies:
   flutter_test:
