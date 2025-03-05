@@ -1,5 +1,7 @@
 import 'package:code_champ/Club.dart';
+import 'package:code_champ/authentication/signup.dart';
 import 'package:code_champ/forgotpass.dart';
+import 'package:code_champ/login.dart';
 import 'package:code_champ/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:code_champ/home.dart';
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: SplashScreen()
+        home: signUp()
     );
   }
 }
